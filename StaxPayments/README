@@ -1,0 +1,37 @@
+This code is written by Basker Mathrubootham for a sample C++ code for Stax payments
+
+This is a simple list. For want of time, the code is brief, tested and verified
+List.h contains the List class and the associated utility classes. The classes are documented as and when appropriate in List.h
+The unit test methods are defined in ListUT.cpp.
+Since I do not have a windows environment set up for development, all code was written on Linux and tested.
+
+"make clean all" on Linux should clean and compile and link.
+All code is original.
+
+Unit Test output is written for your convenience
+
+./ListUT
+1 2 3 4 5 6 7 8 9 10 10 9 8 7 6 5 4 3 2 1
+ Count TEST PASS 
+ Value TEST PASS 
+ Value TEST PASS 
+1 2 3 4 5 6 7 8 9 10 9 8 7 6 5 4 3 2 1
+ Count TEST PASS 
+ Value TEST PASS 
+ Value TEST PASS 
+ Count TEST PASS 
+ Count TEST PASS 
+2 3 6 8 9 10 9 8 7 6 3 2
+Emptiness PASS
+Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
+Jan Feb Mar Apr May Aug Sep Oct Nov Dec
+Feb Mar Apr May Aug Sep Oct Nov Dec
+Feb Mar Apr May Aug Sep Oct Nov
+ Count TEST PASS 
+ Value TEST PASS 
+ Value TEST PASS
+ 
+ Count TEST PASS 
+Emptiness PASS
+Unsigned Test PASS
+String Test   PASS
