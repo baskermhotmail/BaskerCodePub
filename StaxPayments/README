@@ -12,27 +12,65 @@ Unit Test output is written for your convenience.
 To run the Unit test, run ListUT executable.
 
 ./ListUT
+Initial List 
 1 2 3 4 5 6 7 8 9 10 10 9 8 7 6 5 4 3 2 1
- Count TEST PASS 
- Value TEST PASS 
- Value TEST PASS 
+Removed 1 element value 10 
 1 2 3 4 5 6 7 8 9 10 9 8 7 6 5 4 3 2 1
- Count TEST PASS 
+Expected count 19
+Count TEST PASS 
+Expected value 1
  Value TEST PASS 
+Expected value 1
  Value TEST PASS 
- Count TEST PASS 
- Count TEST PASS 
+Removed 1 element value 7 
+1 2 3 4 5 6 8 9 10 9 8 7 6 5 4 3 2 1
+Expected count 18
+Count TEST PASS 
+Removed first element 
+2 3 4 5 6 8 9 10 9 8 7 6 5 4 3 2 1
+Expected value 2
+ Value TEST PASS 
+Expected value 1
+ Value TEST PASS 
+ Removed all 4 and 5 
+Removed last element
 2 3 6 8 9 10 9 8 7 6 3 2
+Expected count 12
+Count TEST PASS 
+Remove 1 if it exists 
+Expected count 12
+Count TEST PASS 
+2 3 6 8 9 10 9 8 7 6 3 2
+Clearing the list 
+
 Emptiness PASS
-Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
-Jan Feb Mar Apr May Aug Sep Oct Nov Dec
-Feb Mar Apr May Aug Sep Oct Nov Dec
-Feb Mar Apr May Aug Sep Oct Nov
- Count TEST PASS 
+Adding value 100
+100
+Expected value 100
  Value TEST PASS 
- Value TEST PASS
- 
- Count TEST PASS 
+Expected value 100
+ Value TEST PASS 
+Adding Months of the year
+Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
+Removed Jun and Jul
+Jan Feb Mar Apr May Aug Sep Oct Nov Dec
+Removed Jan
+Feb Mar Apr May Aug Sep Oct Nov Dec
+Removed Dec
+Feb Mar Apr May Aug Sep Oct Nov
+Expected count 8
+Count TEST PASS 
+Checking first value 
+Expected value Feb
+ Value TEST PASS 
+Checking last value 
+Expected value Nov
+ Value TEST PASS 
+Clearing list 
+
+Expected count 0
+Count TEST PASS 
 Emptiness PASS
 Unsigned Test PASS
 String Test   PASS
+
